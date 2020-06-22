@@ -11,3 +11,20 @@ a {
 h1 {
     font-weight: 900;
 }
+@Media (min-width :500px){
+    body {
+background-color: aqua;
+    }
+
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+  align-content: center;
+
+}
+button {
+    align-self: start;
+    size: 30px;
+}

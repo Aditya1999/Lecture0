@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html>
     <link rel="stylesheet" href="Stylesheet.css">
+    <head>
 <button id="#section1">Section1</button>
 <button id="#section2">Section2</button>
 <button id="#section3">Section3</button>
-<button id="#section4">Section4</button>
+<button onclick="myFunction()">Toggle dark mode</button>
+
+</head>
 
         
 
    
-    <head>
+    <body>
         <div id="Section1">
             <h1>Section1</h1>
            <p> What is Lorem Ipsum?
@@ -80,8 +83,13 @@ Hello world</p>
             (injected humour and the like).
  Hello world</p>
         </div>
-    </head>
-    <body>
+  </body>
+  
+<script>
+    function myFunction() {
+        var element = document.body;
+        element.classList.toggle("dark-mode");
+    }
+</script>
 
-    </body>
 </html>
